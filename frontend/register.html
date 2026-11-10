@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register Property | Machpadaco Property Trust | AB16A55AK04 | RC 8489988</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="hero">
+    <div class="badge">Owner Registration • RC 8489988 • AB16A55AK04</div>
+    <h1>Register Your Building</h1>
+    <p>Link your building code to verified owner - Stop agent chain</p>
+  </div>
+  <div class="container" style="max-width:600px">
+    <div class="card">
+      <form id="registerForm">
+        <div class="form-group"><label>11-Char Postcode (e.g., AB 16 A55 AK 04)</label><input id="regPostcode" type="text" value="AB 16 A55 AK 04" required></div>
+        <div class="form-group"><label>Owner Name</label><input id="regOwner" type="text" value="Engr. Ejike Njuwa" required></div>
+        <div class="form-group"><label>Phone</label><input id="regPhone" type="text" value="0803 642 2829" required></div>
+        <div class="form-group"><label>Property Title</label><input id="regTitle" type="text" value="Workshop inside Highway Talk, 42 Warri Street" required></div>
+        <div class="form-group"><label>Direct Price (₦)</label><input id="regPrice" type="number" value="500000"></div>
+        <button class="btn" type="submit">Register & Verify via NIPOST API</button>
+      </form>
+      <p style="margin-top:12px;font-size:0.85rem;color:#64748b">How to get code: Go to postcode.gov.ng → Use current location at your building → Copy code like AB16A55AK04 with 9m accuracy</p>
+      <a href="index.html" style="display:block;text-align:center;margin-top:16px;color:#1e40af">← Back to Pitch</a>
+    </div>
+  </div>
+  <script src="js/mockData.js"></script>
+  <script src="js/app.js"></script>
+  <script>
+    document.getElementById('registerForm').addEventListener('submit', registerPropertyForm);
+  </script>
+</body>
+</html>

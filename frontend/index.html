@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machpadaco Property Trust | Verify Owner Before You Pay | NIPOST Postcode Verified | RC 8489988</title>
+    <meta name="description" content="Machpadaco Property Trust fixes fake property listings in Umuahia. Tenant verifies building AB 16 A55 AK 04 via NIPOST 11-char postcode before paying inspection fee. Eliminates middle-men. Built by Engr. Ejike Njuwa RC 8489988.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <div class="hero">
+        <div class="badge">Built on Nigeria's Postcode • 3MTT • NIPOST • RC 8489988</div>
+        <h1>Verify Owner Before You Pay.<br>Stop Fake Listings in <span>Umuahia.</span></h1>
+        <p>Tenants lose ₦10k-₦20k inspection fees for properties that don't exist or owners that can't be traced. Street names fail: "42 Warri Street" returns "Nothing registered". We fix it with NIPOST 11-char code.</p>
+        <div class="real-code">YOUR REAL CODE: AB 16 A55 AK 04 • Umuahia North, Abia</div>
+        <p>Live test: Searching "42 WARRI STREET UMUAHIA NORTH" on postcode.gov.ng returns error. Searching AB16A55AK04 returns exact building with 9m accuracy.</p>
+    </div>
+
+    <div class="container">
+        <div class="grid">
+            <div class="card">
+                <h2>🚨 The Problem</h2>
+                <p><strong>Umuahia Case Study:</strong> 42 Warri Street inside Highway Talk</p>
+                <ul style="margin:12px 0 12px 18px">
+                    <li>3 buildings share same street name → NIPOST search fails</li>
+                    <li>Agent A → Agent B → Agent C chain → price from ₦400k to ₦600k</li>
+                    <li>Tenant pays ₦10k inspection, arrives, property fake or 1-bed not 2-bed</li>
+                    <li>Real owner in Lagos, caretaker can't give access</li>
+                </ul>
+                <span class="tag">₦50bn annual misdelivery cost - FG</span>
+                <span class="tag">Fake address</span>
+                <span class="tag">Middle-men inflation</span>
+            </div>
+            <div class="card">
+                <h2>✅ Our Solution</h2>
+                <h3>Machpadaco Property Trust</h3>
+                <p><strong>One Building = One Code = One Verified Owner</strong></p>
+                <div class="form-group"><strong>1. Owner Registers</strong><br>Stand at building, get code via GPS like AB16A55AK04, verify with CAC/NIN</div>
+                <div class="form-group"><strong>2. Listing Tied to Code</strong><br>Listing shows: "Search AB16A55AK04 on postcode.gov.ng" + Direct Price, No Agents</div>
+                <div class="form-group"><strong>3. Tenant Verifies Before Paying</strong><br>Enter code → NIPOST Lookup API confirms building exists + type + LGA → Pay inspection only if verified</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>🔌 How NIPOST API is Used</h2>
+            <div class="grid">
+                <div><h3>SEARCH API</h3><p>Autocomplete address. Used when owner registers.</p><code>GET /search?q=Highway Talk</code></div>
+                <div><h3>LOOKUP API ⭐ Main</h3><p>Resolve 11-char code to verified address.</p><code>GET /lookup/AB16A55AK04</code></div>
+                <div><h3>ASSEMBLY API</h3><p>Validate postcode structure.</p><code>POST /assembly/validate</code></div>
+                <div><h3>Current Level</h3><p>Prototype uses FREE Level 1. After KYB with RC 8489988, upgrade to Level 2-4.</p><span class="tag">RC 8489988 - Ready for KYB</span></div>
+            </div>
+        </div>
+
+        <div class="card demo-box">
+            <h2>🎬 LIVE DEMO — Try Your Code</h2>
+            <p>Enter any 11-char postcode. Try your real code: AB16A55AK04 or neighboring AR01, AK23</p>
+            <input id="postcodeInput" type="text" placeholder="Enter code e.g., AB 16 A55 AK 04" value="AB 16 A55 AK 04">
+            <button class="btn" id="verifyBtn">Verify Building via NIPOST API (Mock → Real after KYB)</button>
+            <div id="result" class="result info"><strong>Ready to verify...</strong><br>Click Verify to simulate NIPOST Lookup API call.</div>
+            <p style="margin-top:16px;color:#94a3b8;font-size:0.85rem">Demo Note: Simulates Level 1 Lookup. Real API: Node.js calls https://api.postcode.gov.ng/lookup/{code} with Bearer token after KYB.</p>
+        </div>
+
+        <div class="grid">
+            <div class="card"><h2>👤 Why Me? — Engr. Ejike Njuwa</h2><p><strong>Founder, Machpadaco Global Services RC 8489988</strong><br>Registered May 16, 2025, ACTIVE. Based Umuahia.</p><ul style="margin:12px 0 12px 18px"><li>Node.js/Express/MongoDB developer</li><li>Property Management VA</li><li>Cabin at 42 Warri Street — code AB16A55AK04 is my own workshop</li><li>CAC-registered — can pass KYB</li></ul></div>
+            <div class="card"><h2>💰 Business Model</h2><p>For Tenants: Save ₦10k-₦20k per failed inspection</p><p>For Landlords: Prove ownership, direct tenants, no 30% inflation</p><p>For Machpadaco: ₦2k verification fee per listing</p><span class="tag">Session 3: Property & Identity</span><span class="tag">Deadline: Nov 21</span></div>
+        </div>
+
+        <div class="card" style="text-align:center">
+            <h2>🔗 Links for Application</h2>
+            <p><strong>Pitch URL:</strong> https://machpadaco.com/property-trust.html</p>
+            <p><strong>Founder:</strong> Engr. Ejike Njuwa • 0803 642 2829</p>
+            <a href="register.html" class="btn" style="display:inline-block;max-width:300px;margin:8px">Register Property</a>
+            <a href="verify.html" class="btn" style="display:inline-block;max-width:300px;margin:8px;background:#0f172a;color:white">Verify Property</a>
+            <br><br>
+            <button class="btn" style="max-width:300px;margin:16px auto" onclick="window.location.href='https://pitch.postcode.gov.ng/apply'">Apply at pitch.postcode.gov.ng</button>
+        </div>
+    </div>
+
+    <div class="footer">Machpadaco Global Services RC 8489988 • Umuahia, Abia State • Built on Nigeria's Postcode • 3MTT • NIPOST • Session 3: Nov 21, 2026</div>
+
+    <script src="js/mockData.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
